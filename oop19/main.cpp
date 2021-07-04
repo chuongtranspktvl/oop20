@@ -8,4 +8,7 @@ int main() {
 	Employee* employee2 = new FullTimeEmployee("Khung", 50000);
 	cout << "Name : " << employee2->getName() << endl;
 	cout << "Salary per day " << employee2->calculateSalary() << endl;
+	Employee* employee3 = new FullTimeEmployee("Khung", 10000);
+	cout << "Name : " << employee3->getName() << endl;
+	cout << "Salary per day " << employee3->calculateSalary() << endl;
 }
