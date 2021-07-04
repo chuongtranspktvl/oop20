@@ -1,8 +1,6 @@
-#ifndef EMPLOYEE
-#define EMPLOYEE
+#ifndef EMPLOYEE_CPP
+#define EMPLOYEE_CPP
 #include <iostream>
-#include "PartTimeEmployee.cpp"
-#include "FullTimeEmployee.cpp"
 using namespace std;
 class Employee {
 private:
@@ -28,7 +26,4 @@ public:
 	}
 	virtual int calculateSalary() = 0;
 };
-int main() {
-
-}
 #endif
